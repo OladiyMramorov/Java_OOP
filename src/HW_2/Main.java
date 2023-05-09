@@ -15,7 +15,7 @@ public class Main {
                 aquarium.getListAnimal()) {
             System.out.println(item);
         }
-        System.out.println("---------------");
-        System.out.println("Быстрее всех плавает - " + aquarium.speedWinner());
+        System.out.println("----------------");
+        System.out.println("Winner - " + aquarium.speedWinner());
     }
 }
