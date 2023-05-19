@@ -21,7 +21,6 @@ public class FileOperationJSON extends FileOperationImpl{
     public List<String> readAllLines() {
         List<String> list = super.readAllLines();
         String text = String.join("", list);
-
         List<String> result = new ArrayList<>();
         List<Map> users = null;
         Gson gson = new Gson();
